@@ -1,12 +1,24 @@
-# React + Vite
+# 🚀 ReactFeed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReactFeed is a simple ReactJS web application that fetches and displays the latest posts from the (https://www.reddit.com/r/reactjs.json) in a responsive card layout using Bootstrap 5.  
 
-Currently, two official plugins are available:
+Each card shows:
+- **Title**
+- **Post Text (up to 150 characters)**
+- **URL**
+- **Score**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app also features a responsive design suitable for desktop and mobile screens, with a centered navbar and a loading spinner while data is fetched.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📦 Tech Stack
+
+- **ReactJS**
+- **Bootstrap 5**
+- **Fetch API**
+- **Reddit JSON API**
+
+---
+
